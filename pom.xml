@@ -38,5 +38,6 @@
 		<module>seminar-camel-servlet</module>
 		<module>seminar-cdi-rest</module>
 		<module>seminar-twitter</module>
+		<module>seminar-environment</module>
 	</modules>
 </project>

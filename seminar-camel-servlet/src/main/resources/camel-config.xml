@@ -30,7 +30,7 @@
       <when>
         <header>name</header>
         <transform>
-          <simple>Hello ${header.name} I am ${sysenv.HOSTNAME} how are you?</simple>
+          <simple>Hello ${header.name} I am ${sysenv.HOSTNAME}. How are you?</simple>
         </transform>
       </when>
       <otherwise>

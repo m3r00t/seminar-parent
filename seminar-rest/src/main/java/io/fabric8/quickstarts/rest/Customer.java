@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "Customer")
 public class Customer {
 	
-	// TESTING TESTING
+	// TESTING TESTING TESTING
     private long id;
     private String name;
 

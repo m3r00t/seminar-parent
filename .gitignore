@@ -9,6 +9,7 @@ classpath
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+.tern-project
 
 # Package Files #
 *.jar

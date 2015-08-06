@@ -12,7 +12,7 @@
 	<properties>
 		<docker.from>fabric8/tomcat-8.0</docker.from>
 
-		<docker.image>192.168.122.201:5000/m3r00t/${project.artifactId}:${project.version}</docker.image>
+		<docker.image>m3r00t/${project.artifactId}:${project.version}</docker.image>
 		<docker.assemblyDescriptorRef>rootWar</docker.assemblyDescriptorRef>
 		<docker.port.container.jolokia>8778</docker.port.container.jolokia>
 		<docker.port.container.http>8080</docker.port.container.http>

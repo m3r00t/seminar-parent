@@ -92,7 +92,7 @@
             "containers": [
               {
                 "name": "jenkins",
-                "image": "openshift/jenkins-16-centos7",
+                "image": "m3r00t/docker-jenkins:1.0.0",
                 "env": [
                   {
                     "name": "JENKINS_PASSWORD",
@@ -119,7 +119,7 @@
               {
                 "name": "${JENKINS_SERVICE_NAME}-data",
                 "persistentVolumeClaim": {
-                  "claimName": "jenkins-claim"
+                  "claimName": "jenkins-pvc"
                 }
               }
             ],

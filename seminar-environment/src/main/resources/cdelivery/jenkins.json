@@ -104,6 +104,10 @@
                   {
                     "name": "${JENKINS_SERVICE_NAME}-data",
                     "mountPath": "/var/lib/jenkins"
+                  },
+                  {
+                    "name": "${JENKINS_SERVICE_NAME}-repo",
+                    "mountPath": "/var/lib/jenkins/.m2"
                   }
                 ],
                 "terminationMessagePath": "/dev/termination-log",
@@ -120,6 +124,12 @@
                 "name": "${JENKINS_SERVICE_NAME}-data",
                 "persistentVolumeClaim": {
                   "claimName": "jenkins-pvc"
+                }
+              },
+              {
+                "name": "${JENKINS_SERVICE_NAME}-repo",
+                "persistentVolumeClaim": {
+                  "claimName": "repo-pvc"
                 }
               }
             ],

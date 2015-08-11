@@ -110,6 +110,6 @@
   "parameters" : [ {
     "description" : "The domain name to append to the service name to access web applications",
     "name" : "DOMAIN",
-    "value" : "vagrant.f8"
+    "value" : "myapp.mycloud"
   } ]
 }
